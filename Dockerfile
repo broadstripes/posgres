@@ -1,4 +1,5 @@
 FROM postgres:9.4
+MAINTAINER Mark Lanz <mark.lanz@broadstripes.com>
 RUN apt-get update \
     && apt-get install -y \
        postgresql-plperl-9.4 \
