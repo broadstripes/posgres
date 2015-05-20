@@ -1,4 +1,4 @@
-# posgres
+# postgres
 This Dockerfile builds FROM the official Postgres docker-library and acts just like it, except that PL/Perl and PostGIS have been build into the image.
 
 The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs),
