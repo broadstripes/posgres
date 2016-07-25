@@ -2,7 +2,7 @@ FROM postgres:9.5
 MAINTAINER Mark Lanz <mark.lanz@broadstripes.com>
 RUN apt-get update \
     && apt-get install -y \
-       postgresql-plperl-9.4 \
+       postgresql-plperl-9.5 \
        binutils \
        gdal-bin \
        libproj-dev \
