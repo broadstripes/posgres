@@ -5,4 +5,4 @@ RUN apt-get update && apt-get install -y \
        binutils \
        gdal-bin \
        libproj-dev \
-       postgis
+       postgresql-9.6-postgis-2.4
