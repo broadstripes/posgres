@@ -1,8 +1,8 @@
-FROM postgres:9.6
+FROM postgres:12.6
 MAINTAINER Mark Lanz <mark.lanz@broadstripes.com>
 RUN apt-get update && apt-get install -y \
-       postgresql-plperl-9.6 \
+       postgresql-plperl-12 \
        binutils \
        gdal-bin \
        libproj-dev \
-       postgresql-9.6-postgis-2.4
+       postgresql-12-postgis-3
